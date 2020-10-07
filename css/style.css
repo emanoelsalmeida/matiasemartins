@@ -192,6 +192,7 @@ header ul li:first-child a,header ul li a:hover{
 }
 .blog-item p a{
     text-decoration: none;
+    color: #f9d068;
 }
 
 .blog-item img{
