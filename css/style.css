@@ -13,7 +13,7 @@
     width: 15vw;
 }
 header{
-    background-color: #030050;
+    background-color:black;
 }
 header ul {
     list-style: none;
@@ -186,7 +186,7 @@ header ul li:first-child a,header ul li a:hover{
 }
 
 .contact{
-    background-color:#030050;
+    background-color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
