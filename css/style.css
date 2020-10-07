@@ -158,6 +158,11 @@ header ul li:first-child a,header ul li a:hover{
     font-family: 'Cinzel', serif;
 
 }
+.instagram{
+    display: grid;
+    grid-template-columns: 80%;
+    justify-content: center;
+}
 
 .faq h1{
     font-family: 'Cinzel', serif;
