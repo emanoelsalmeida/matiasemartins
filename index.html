@@ -9,7 +9,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,800&display=swap" rel="stylesheet">
-      <!-- Bootstrap CSS -->
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+    
+    <!-- Bootstrap CSS -->
      
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
        
@@ -18,14 +22,21 @@
 <body>
 	<header>
         <div class="box-header">
-
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="#about">Sobre</a><li>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#conteudo">Conteúdo</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
+            <nav>
+                <input type="checkbox" id="res-menu">
+                <label for="res-menu">
+                    <i class="fa fa-bars" id="sign-one"></i>
+                    <i class="fa fa-time" id="sign-two">
+                    </i>
+                </label>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="#about">Sobre</a><li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#conteudo">Conteúdo</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
         </div>
 
         <div class="header-box">
@@ -34,7 +45,7 @@
             <h2>
                 O escritório Matias & Martins tem como objetivo prestar serviços com eficiência, para obtenção de resultados positivos em diversas áreas de atuação do Direito Previdenciário, Civil, Criminal, Empresarial, Administrativo, Ambiental e Tributário. 
             </h2>
-                <form action="https://api.whatsapp.com/send?phone=5511982695254">
+                <form action="#contato">
                     <button class="color">
                         Entre em Contato
                     </button>
@@ -89,11 +100,10 @@
             <div class="p1-2">
                 <div class="p1-2-item">
                     <div class="box-one">
-
                         <div class="b-item">
-                             <h3>
-                                Direito Previdenciário
-                            </h3>
+                            <h3>
+                               Direito Previdenciário
+                           </h3>
                              <ul>
                                  <li>Aposentadoria Rural;</li>
                                  <li>Aposentadoria Urbana;</li>
@@ -102,11 +112,19 @@
                                  <li>Pensão por morte.</li>
                              </ul>
                         </div>
+                        <div class="b-item">
+                            <img src="img/prev2.jpg" alt="">
+
+                        </div>
+                       
                     </div>
                 </div>
                 <div class="p1-2-item">
                     <div class="box-one">
-                        
+                        <div class="b-item ">
+                            <img  class="active" src="img/people.jpg" alt="">
+
+                        </div>
                         <div class="b-item">
                              <h3>
                                 Direito Civil
@@ -119,6 +137,7 @@
                                  <li>Elaboração de acordos.</li>
                              </ul>
                         </div>
+
                     </div>
                 </div>
                 <div class="p1-2-item">
@@ -136,12 +155,20 @@
                                 <li>Crimes de Trânsito;</li>
                                 <li>Crimes de Violência Doméstica e Familiar contra a Mulher;</li>
                             </ul>
-                         </div>       
+                         </div> 
+                         <div class="b-item">
+                            <img src="img/prev.jpg" alt="">
+
+                        </div>      
                     </div>
                 </div>   
                 <div class="p1-2-item">
 
                     <div class="box-one">
+                        <div class="b-item">
+                            <img class="active" src="img/trabalho.jpg" alt="">
+
+                        </div>
                         <div class="b-item">
                              <h3>
                                 Direito Empresarial
@@ -166,14 +193,26 @@
                          <h3>
                             Entre Outros
                         </h3>
-                        <ul>
-                            <li>Direito Administrativo.</li>
-                            <li>Direito Ambiental.</li>
-                            <li>Direito Tributário.</li>
-                            <li>Defesa em atuação de trânsito.</li>
-                        </ul>
+                        <nav>
+                            <input type="checkbox" id="res-menu">
+                            <label for="res-menu">
+                                <i class="fa fa-bars" id="sign-one"></i>
+                                <i class="fa fa-time" id="sign-two">
+                                </i>
+                            </label>
+                            <ul>
+                                <li>Direito Administrativo.</li>
+                                <li>Direito Ambiental.</li>
+                                <li>Direito Tributário.</li>
+                                <li>Defesa em atuação de trânsito.</li>
+                            </ul>
+                        </nav>
+                       
                      </div>       
+                     <div class="b-item">
+                        <img src="img/direito civil.webp" alt="">
 
+                    </div>
                 </div>
             </div>
         </div>
@@ -230,7 +269,7 @@
             </div>
             <div class="c-item">
                 <p>Dr Levy Marcos Martins Madeira - OAB/MG-177.867</p>
-                <p>Alan Cezar Matias- OAB/MG-196.792</p>
+                <p>Dr Alan Cezar Matias- OAB/MG-196.792</p>
                 <div class="c-item c-flex">
                     <img src="img/telefone.png" alt="">
                     <p> Telefone: (35) 998813808 / (35) 999480190</p>  
