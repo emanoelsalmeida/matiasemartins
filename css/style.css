@@ -124,13 +124,13 @@ label #sign-one,  label #sign-two{
 
 .p1-2{
     display: grid;
-    grid-template-columns: 90%;
+    grid-template-columns: 80%;
     grid-gap: 50px;
     align-items: center;
     justify-content: center;
 }
 .p1-2-item img{
-    width:46vw;
+    width:40vw;height: auto;
 }
 .box-one{
     display: grid;
