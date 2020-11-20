@@ -355,6 +355,17 @@ footer p a{
     text-align: center;
 }
 
+.post-blog {padding: 5rem 2rem;}
+.post-blog h1{font-size: 2em;text-align: center;}
+.post-blog p{font-size: .9em;margin: 2vh 0;}
+.post-blog h3{font-size: 1.2em;margin: 2vh 0;}
+.post-blog ul{list-style: square;}
+.post-blog ul li{font-size: .8em;list-style:square;}
+
+
+
+
+
 @media screen and (max-width:900px){
     .box-header{
         flex-direction: column;
