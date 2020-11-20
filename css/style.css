@@ -4,9 +4,7 @@
     font-family: 'Cinzel', serif;
     font-family: 'Montserrat', sans-serif;
 }
-body{
-    font-size: 100%;
-}
+body { font-size: calc(1em + 1vw) }
 .box-header{
     display: flex;
     justify-content: center;
