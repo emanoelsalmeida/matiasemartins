@@ -130,7 +130,7 @@ label #sign-one,  label #sign-two{
     justify-content: center;
 }
 .p1-2-item img{
-    width:100%;height: auto;
+    width:100%;height: auto;max-width: 700px;
 }
 .box-one{
     display: grid;
@@ -174,7 +174,6 @@ label #sign-one,  label #sign-two{
 }
 .box-one li{
     font-size: .8rem;
-    width: 80%;
     margin-left: 50px;
 }
 .pag-one h2{
