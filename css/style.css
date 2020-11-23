@@ -394,7 +394,7 @@ footer p a{
     nav ul{
         position: fixed;
         width: 100%;
-        height: 55vh;
+        height: 50vh;
         background-color:#000;
         top:50px;
         left:-100%;
