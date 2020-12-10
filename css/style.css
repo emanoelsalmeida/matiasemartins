@@ -4,7 +4,7 @@
     font-family: 'Cinzel', serif;
     font-family: 'Montserrat', sans-serif;
 }
-body { font-size: calc(1em + 1vw) }
+body { font-size:100%; }
 .box-header{
     display: flex;
     justify-content: center;
@@ -29,7 +29,7 @@ header ul li {
 header ul li a{
      text-decoration: none;
      color: white;
-     font-size: 1em;;
+     font-size: 1rrem
  }
 header ul li:first-child a,header ul li a:hover{
     color: #f9d068;
@@ -54,21 +54,21 @@ header ul li:first-child a,header ul li a:hover{
     align-self: center;
     font-family: 'Cinzel', serif;
     font-weight: 600;
-    font-size: 1.5em;;
+    font-size: 1.5rem;
 }
 .header-item h2{
     color: white;
     align-self: center;
     font-weight: 300;
     margin: 40px 0;
-    font-size:1.2em;;
+    font-size:1.2rem;
 }
 .header-item button.color {
     background-color:transparent;
     color: white;
     width: 20vw;
     height: 10vh;
-    font-size: .8em;;
+    font-size: .8rem;
     text-transform: uppercase;
     font-weight: 700;
     cursor: pointer;
@@ -77,7 +77,7 @@ header ul li:first-child a,header ul li a:hover{
 }
 label #sign-one,  label #sign-two{
     
-    font-size: 1em;;
+    font-size: 1em;
    color: #ebcb7a;
     float: right;
     margin-right: 30px;
@@ -100,7 +100,7 @@ label #sign-one,  label #sign-two{
     width: 30%;
     display: block;
     margin: 0 auto;
-    padding: 30px 0;font-size: 1.5em;;
+    padding: 30px 0;font-size: 1.5rem;
 }
 
 .p1-box{
@@ -113,11 +113,11 @@ label #sign-one,  label #sign-two{
 .p1-item p{
     margin: 20px 0;
     font-weight: 400;
-    font-size: .8em;;
+    font-size: .8rem;
 }
 .p1-item h3{
  margin: 20px 0;
- text-align: center;font-size: 1em;;
+ text-align: center;font-size: 1rem;
 }
 
 .p1-2{
@@ -151,19 +151,19 @@ label #sign-one,  label #sign-two{
 
 }
 .box-one h3{
-    font-size: 1.2em;;
+    font-size: 1.2rem;
     font-family: 'Cinzel', serif;
     margin: 30px 0;
     margin-bottom: 15px;
     text-align: center;
 }
 .box-one li{
-    font-size: 1em;;
+    font-size: 1rrem
     margin-left: 50px;
 }
 .pag-one h2{
     text-align: center;
-    font-size: 2em;;
+    font-size: 2rem;
     font-family: 'Cinzel', serif;
     font-weight: 400;
     padding: 50px 0;
@@ -205,7 +205,7 @@ label #sign-one,  label #sign-two{
     padding-bottom: 30px;
 }
 .blog-item h3{
-    font-size: 1em;;
+    font-size: 1rem;
     font-family: 'Cinzel', serif;
     margin: 30px 0;
     margin-bottom: 0;
@@ -243,7 +243,7 @@ label #sign-one,  label #sign-two{
     background-color: #f8f9fb;
     color: #f9d068;
         font-weight:600;
-    font-size: .7em;;
+    font-size: .7rem;
 }
 .collapse{
     background-color: #f3f3f3;
@@ -261,14 +261,14 @@ label #sign-one,  label #sign-two{
     padding: 50px 0;
 }
 .c-item h3{
-    font-size: 1.5em;;
+    font-size: 1.5rem;
     font-family: 'Cinzel', serif;
     margin: 30px 0;
     text-align: center;
     color: #f9d068;
 }
 .c-item p{
-    font-size: .8em;;
+    font-size: .8rem;
     margin: 10px 0;
     text-align: center;
     color: white;
@@ -308,7 +308,7 @@ form .input-fields{
     width:100%;
     justify-content: center;
     align-items: center;
-    font-size: .8em;;
+    font-size: .8rem;
 }
 .msg textarea{
     height: 80px;
@@ -343,12 +343,12 @@ footer p a{
     text-align: center;
 }
 
-.post-blog {padding: 5rem 2rem;}
-.post-blog h1{font-size: 2em;text-align: center;}
-.post-blog p{font-size: .9em;margin: 2vh 0;}
-.post-blog h3{font-size: 1.2em;margin: 2vh 0;}
+.post-blog {padding: 5rem 2rrem}
+.post-blog h1{font-size: 2rem;text-align: center;}
+.post-blog p{font-size: .9rem;margin: 2vh 0;}
+.post-blog h3{font-size: 1.2rem;margin: 2vh 0;}
 .post-blog ul{list-style: square;}
-.post-blog ul li{font-size: .8em;list-style:square;}
+.post-blog ul li{font-size: .8rem;list-style:square;}
 
 
 
@@ -374,7 +374,7 @@ footer p a{
     header ul li a{
         text-decoration: none;
         color: white;
-        font-size: .9em;;
+        font-size: .9rem;
     }
     label #sign-one{
         display: block;
@@ -418,7 +418,7 @@ footer p a{
 
     .pag-one h1{
 
-        font-size: 1em;;
+        font-size: 1rem;
         font-family: 'Cinzel', serif;
         font-weight: 400;
         width: 80%;
@@ -427,7 +427,7 @@ footer p a{
         padding: 50px 0;
     }
     .pag-one h2{
-        font-size: 1.1em;;
+        font-size: 1.1rem;
         font-family: 'Cinzel', serif;
         margin: 30px 0;
         text-align: center;
@@ -460,11 +460,11 @@ footer p a{
         width: 90%;
     }
    .contact p{
-       font-size: .7em;;
+       font-size: .7rem;
    }
    .c-item h4{
     font-weight: 700;
-    font-size: .9em;;
+    font-size: .9rem;
     color: white;
 }
    .whatsapp a img{
