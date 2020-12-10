@@ -128,7 +128,7 @@ label #sign-one,  label #sign-two{
     justify-content: center;
 }
 .p1-2-item img{
-    width:100%;height: auto;max-width: 700px;
+    width:100%;height: auto;
 }
 .box-one{
     display: grid;
@@ -138,6 +138,7 @@ label #sign-one,  label #sign-two{
     align-self:center;
     box-shadow: 0 0 15px #dcdcdc;
 }
+.box-one:nth-child(1){grid-template-columns: 40% 60%;}
 .box-one:nth-child(2){
     display: grid;
     grid-template-columns: 100%;
@@ -146,6 +147,7 @@ label #sign-one,  label #sign-two{
     align-self:center;
     box-shadow: 0 0 15px #dcdcdc;
 }
+
 .b-item{
     display: flex;
     flex-direction: column;
@@ -155,6 +157,7 @@ label #sign-one,  label #sign-two{
 .box-one img{
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
+    width:100%;height: auto;
 
 }
 .box-one .active{
