@@ -158,8 +158,8 @@ label #sign-one,  label #sign-two{
     text-align: center;
 }
 .box-one li{
-    font-size: 1rrem
-    margin-left: 50px;
+    font-size: 1rem;
+    margin: 0 50px;
 }
 .pag-one h2{
     text-align: center;
@@ -343,7 +343,7 @@ footer p a{
     text-align: center;
 }
 
-.post-blog {padding: 5rem 2rrem}
+.post-blog {padding: 5rem 2rem}
 .post-blog h1{font-size: 2rem;text-align: center;}
 .post-blog p{font-size: .9rem;margin: 2vh 0;}
 .post-blog h3{font-size: 1.2rem;margin: 2vh 0;}
