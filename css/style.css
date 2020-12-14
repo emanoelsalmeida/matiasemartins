@@ -159,7 +159,7 @@ label #sign-one,  label #sign-two{
 }
 .box-one li{
     font-size: 1rem;
-    margin: 0 50px;
+    margin: 20px 50px;
 }
 .pag-one h2{
     text-align: center;
@@ -171,6 +171,12 @@ label #sign-one,  label #sign-two{
 .pag-one h2 b{
     font-family: 'Cinzel', serif;
 
+}
+
+@media screen and (min-width:1200px){
+    .box-one li{
+        font-size: 1.2rem;
+    }
 }
 
 .instagram{
