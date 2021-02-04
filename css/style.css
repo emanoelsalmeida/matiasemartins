@@ -47,7 +47,8 @@ header ul li:first-child a,header ul li a:hover{
 }
 .header-item img{
     align-self: center;
-    width: 40vw;
+    width: 30%;
+    height: auto;
 }
 .header-item h1{
     color: #f9d068;
