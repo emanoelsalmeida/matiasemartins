@@ -372,7 +372,11 @@ footer p a{
         align-items: flex-end;
         width: 90%;
     }.box-header img{
-        width: 40vw;
+        width: 8%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 1em;
     }
 
     .header-box, .box-one{
