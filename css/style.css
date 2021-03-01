@@ -51,7 +51,7 @@ header{
     margin: 40px 0;
     font-size:1.2rem;
 }
-.header-item button.color {
+.button-form button.color {
     background-color:transparent;
     color: white;
     width: 20vw;
@@ -63,7 +63,17 @@ header{
     border: 2px solid #97814e;
     border-radius: 10px;
 }
-
+.button-blog,.button-blog:hover{background-color:transparent;
+    color: #000;
+  padding: 1em 2em;
+    font-size: .8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    border: 2px solid #97814e;
+    border-radius: .5em;
+    text-decoration: none;
+}
 .pag-one h1{
     font-family: 'Cinzel', serif;
     font-weight: 400;
@@ -159,6 +169,9 @@ header{
 
 .blog{
     background-color: #ffffff;
+    display: flex;place-items: center;
+    flex-direction: column;
+    padding: 2em;
 }
 .blog h1{
     text-align: center;
