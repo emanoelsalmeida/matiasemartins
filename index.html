@@ -7,7 +7,8 @@
 	<meta name="author" content="Your Name">
 	<meta name="description" content="Example description">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu-hambuguer.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,800&display=swap" rel="stylesheet">
    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -26,20 +27,18 @@
         <div class="box-header">
             <img src="img-1.jpeg" alt="">
             <nav>
-                <input type="checkbox" id="res-menu">
-                <label for="res-menu">
-                    <i class="fa fa-bars" id="sign-one"></i>
-                    <i class="fa fa-time" id="sign-two">
-                    </i>
-                </label>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="#about">Sobre</a><li>
-                    <li><a href="#servicos">Serviços</a></li>
-                    <li><a href="#conteudo">Conteúdo</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
-            </nav>
+                <div class="openMenu"><i class="fa fa-bars"></i></div>
+                <ul class="mainMenu"> 
+                       <li><a href="">Home</a></li>
+                       <li><a href="#about">Sobre</a></li>
+                       <li><a href="#servicos">Áreas de Atuação</a></li>
+                       <li><a href="#contato">Contato</a></li>
+                       <div class="closeMenu">
+                           <i class="fa fa-times"></i>
+                       </div>
+                   
+                    </ul>
+              </nav> 
         </div>
 
         <div class="header-box">
@@ -113,7 +112,7 @@
                              </ul>
                         </div>
                         <div class="b-item">
-                            <img src="img/prev2.jpg" alt="">
+                            <img src="direito_previdencia.jpeg" alt="">
 
                         </div>
                        
@@ -122,7 +121,7 @@
                 <div class="p1-2-item">
                     <div class="box-one">
                         <div class="b-item ">
-                            <img  class="active" src="img/people.jpg" alt="">
+                            <img  class="active" src="direito_civil.jpeg" alt="">
 
                         </div>
                         <div class="b-item">
@@ -157,7 +156,7 @@
                             </ul>
                          </div> 
                          <div class="b-item">
-                            <img src="img/prev.jpg" alt="">
+                            <img src="direito_penal.jpeg" alt="">
 
                         </div>      
                     </div>
@@ -166,7 +165,7 @@
 
                     <div class="box-one">
                         <div class="b-item">
-                            <img class="active" src="img/trabalho.jpg" alt="">
+                            <img class="active" src="direito_empresarial.jpeg" alt="">
 
                         </div>
                         <div class="b-item">
@@ -193,20 +192,12 @@
                          <h3>
                             Entre Outros
                         </h3>
-                        <nav>
-                            <input type="checkbox" id="res-menu">
-                            <label for="res-menu">
-                                <i class="fa fa-bars" id="sign-one"></i>
-                                <i class="fa fa-time" id="sign-two">
-                                </i>
-                            </label>
                             <ul>
                                 <li>Direito Administrativo.</li>
                                 <li>Direito Ambiental.</li>
                                 <li>Direito Tributário.</li>
                                 <li>Defesa em atuação de trânsito.</li>
                             </ul>
-                        </nav>
                        
                      </div>       
                      <div class="b-item">
@@ -299,6 +290,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         
 	<script type="text/javascript" src=""></script>
+    <script src="java/menu-hambuguer.js"></script>
 </body>
 
 </html>

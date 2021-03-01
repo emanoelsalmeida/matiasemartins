@@ -20,7 +20,24 @@ header{
     background-color:black;
     padding: 2em 0;
 }
-
+header ul {
+    list-style: none;
+     text-align: center;
+}
+header ul li {
+     display: inline-block;
+    padding: 1em;
+     font-family: 'Montserrat', sans-serif;
+     color: white;
+ }
+header ul li a{
+     text-decoration: none;
+     color: white;
+     font-size: 1rrem
+ }
+header ul li:first-child a,header ul li a:hover{
+    color: #f9d068;
+}
 
 .header-box{
     display: grid;
@@ -63,6 +80,24 @@ header{
     border: 2px solid #97814e;
     border-radius: 10px;
 }
+label #sign-one,  label #sign-two{
+    
+    font-size: 1em;
+   color: #ebcb7a;
+    float: right;
+    margin-right: 30px;
+    cursor: pointer;
+    display: none;
+    z-index: 13;
+}
+#res-menu{
+    display: none;
+}
+.fa-bars{
+   display: flex;
+   align-items: center;
+   }
+
 
 .pag-one h1{
     font-family: 'Cinzel', serif;
@@ -333,14 +368,15 @@ footer p a{
 
 
 @media screen and (max-width:900px){
-   header{height: 100%;}
-   
     .box-header{
-        justify-content: space-between;
-        align-items: center;
+        flex-direction: column;
+        align-items: flex-end;
         width: 90%;
     }.box-header img{
-        width: 15%;
+        width: 8%;
+        position: absolute;
+        top: 0;
+        left: 0;
         margin: 1em;
     }
 
@@ -350,6 +386,46 @@ footer p a{
     .header-box img{
         width: 70vw;
         padding-top: 30px;
+    }
+
+    header ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: .9rem;
+    }
+    label #sign-one{
+        display: block;
+    }
+    nav ul{
+        position: fixed;
+        width: 100%;
+        height: 50vh;
+        background-color:#000;
+        top:50px;
+        left:-100%;
+        text-align: center;
+        transition: .5s;
+        z-index: 10;
+        margin-top: 20px;
+    }
+    nav ul li{
+        display: block;
+        margin: 40px 0;
+        line-height: 10px;
+    }
+    
+    label #sign-one,  label #sign-two{
+        position: fixed;
+        z-index: 11;
+    }
+    #res-menu:checked ~ ul{
+        left: 0;
+    }
+    #res-menu:checked ~ #sign-one{
+        display: none;
+    }
+    #res-menu:checked ~ #sign-two{
+        display: block;
     }
 
     .header-item button.color{
